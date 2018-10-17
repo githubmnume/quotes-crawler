@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.VrlistMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Vrlist">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="caseid" jdbcType="INTEGER" property="caseid" />
+    <result column="functionArea" jdbcType="VARCHAR" property="functionarea" />
+    <result column="vstcNr" jdbcType="VARCHAR" property="vstcnr" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="caseDescription" jdbcType="VARCHAR" property="casedescription" />
+    <result column="priority" jdbcType="VARCHAR" property="priority" />
+    <result column="tester" jdbcType="VARCHAR" property="tester" />
+    <result column="helpAhcr" jdbcType="VARCHAR" property="helpahcr" />
+    <result column="tooltips" jdbcType="VARCHAR" property="tooltips" />
+    <result column="addrslabel" jdbcType="VARCHAR" property="addrslabel" />
+    <result column="result" jdbcType="VARCHAR" property="result" />
+    <result column="java" jdbcType="VARCHAR" property="java" />
+    <result column="os" jdbcType="VARCHAR" property="os" />
+    <result column="nodetype" jdbcType="VARCHAR" property="nodetype" />
+    <result column="npu" jdbcType="VARCHAR" property="npu" />
+    <result column="ipstd" jdbcType="VARCHAR" property="ipstd" />
+    <result column="tstd" jdbcType="VARCHAR" property="tstd" />
+    <result column="product" jdbcType="VARCHAR" property="product" />
+    <result column="sbl" jdbcType="VARCHAR" property="sbl" />
+    <result column="mlcraft" jdbcType="VARCHAR" property="mlcraft" />
+    <result column="testdate" jdbcType="DATE" property="testdate" />
+    <result column="bugissueNo" jdbcType="VARCHAR" property="bugissueno" />
+    <result column="comments" jdbcType="VARCHAR" property="comments" />
+    <result column="vrReviewer" jdbcType="VARCHAR" property="vrreviewer" />
+    <result column="week" jdbcType="VARCHAR" property="week" />
+    <result column="team" jdbcType="VARCHAR" property="team" />
+  </resultMap>
+</mapper>
